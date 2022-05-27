@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+      background: rgb(238, 174, 238);
+  }
+  .container{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(189,68,170);
+    padding-top: 50px;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+  .head{
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  label{
+    display: block;
+    margin: auto;
+    width: 75%;
+   
+    
+  }
+input{
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 50px;
+    border: 2px solid rgb(168, 165, 165);
+    border-radius: 5px;
+}
+#submit{
+    background-color: rgb(189,68,170);
+    border: 2px solid rgb(245, 243, 243);
+}

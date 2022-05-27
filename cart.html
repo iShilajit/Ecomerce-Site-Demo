@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./styles/cart.css"/>
+</head>
+<body>
+    <div class="amt">
+        <p>Total Amount:&nbsp;₹&nbsp;</p>
+        <p id="total"></p>
+    </div>
+    <div class="quantity">
+        <!-- <p>Quantity:&nbsp;</p> -->
+        <p class="showQty"></p>
+    </div>
+
+    <div class="flex">
+        <div class="promo">
+          <input type="text" id="promo" placeholder="Enter promo code" />
+          <input type="button" class="btn" value="Apply Promo" />
+        </div>
+        <!-- <div class="total_price">
+          Total Items -<span class="total-items">0</span> <br />
+          Total price - <span class="total-price">$0</span><br /> -->
+          <span class="code_or_not"></span>
+        </div>
+      </div>
+    <div id="container">
+        
+    </div>
+    <button class="checkout ">Checkout</button>
+</body>
+</html>
+<script src="./script/cart.js"></script>

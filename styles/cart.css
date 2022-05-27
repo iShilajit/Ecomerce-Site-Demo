@@ -1,0 +1,94 @@
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    }
+    #price{
+        font-weight: 600;
+        /* margin-left: -30px; */
+        margin-left: 10px;
+    
+    }
+    #name{
+        color: grey;
+        /* margin-left: 20px; */
+    }
+    .secdiv{
+        display: flex;
+        /* justify-content: space-evenly; */
+        margin-top: -30px;
+        /* margin-right: 100px; */
+    }
+    #strikeprice{
+        
+        /* padding: 15px; */
+        color: grey;
+        margin-top: 16px;
+        margin-left: 10px;
+    }
+    img{
+        height: 350px;
+    }
+    .addCart{
+        background-color: #4bb543;
+        border: 0px;
+        height: 30px;
+        color: #fff;
+        margin-left: 2px;
+    }
+  
+   #_rs{
+       margin-left: 20px;
+   }
+  
+   /* before container */
+   .amt{
+       display: flex;
+       justify-content: end;
+
+   }
+   .amt > p{
+       font-size: 18px;
+       font-weight: 600;
+   }
+   .quantity{
+    display: flex; 
+    margin-top: -10px;
+    justify-content: end;
+    margin-right: 20px;
+   
+   }
+   .quantity >p{
+    font-size: 15px;
+    font-weight: 600; 
+   }
+
+   /* quanty increase decrease part */
+   .updown{
+       display: flex;
+   }
+
+   #pobtn {
+    height: 20px;
+    background-color: #4bb543;
+    box-shadow: 1px solid #4bb543;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+
+   }
+   #mibtn {
+    height: 20px;
+    background-color: #4bb543;
+    box-shadow: 1px solid #4bb543;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+
+   }
+   #qty{
+margin-top: 1px;
+
+   }
